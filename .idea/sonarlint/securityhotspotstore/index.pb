@@ -55,3 +55,9 @@ l
 <src/main/java/domain_model/strategy/RecognitionStrategy.java,c/e/ce4f64c7ae9dcfd108e1a0f6e3a8343c55d896fb
 x
 Hsrc/test/java/domain_model/strategy/CompleteRecognitionStrategyTest.java,0/b/0b6764aeccf1d177149507a5ddf39ca7b78ef1bc
+]
+-src/main/java/domain_model/도메인모델.md,8/f/8faf5d6bdd352832b39cf3d32b83deb2025c691c
+b
+2src/main/java/domain_model/RevenueRecognition.java,2/6/26a64f30525f770e58eda37e3aa4151cf6c8cd9e
+_
+/src/test/java/domain_model/IntContractTest.java,c/9/c98f5a575670f0c18f6c80e33cf7c4d3728c59c4

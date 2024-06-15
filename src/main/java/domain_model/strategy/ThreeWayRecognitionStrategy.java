@@ -14,7 +14,7 @@ public class ThreeWayRecognitionStrategy extends RecognitionStrategy {
         this.secondRecognitionOffset = secondRecognitionOffset;
     }
 
-    void calculateRevenueRecognitions(Contract contract) {
+    public void calculateRevenueRecognitions(Contract contract) {
         Money[] allocation = contract.getRevenue().allocate(3);
         contract.addRevenueRecognition(new RevenueRecognition(allocation[0], contract.getWhenSigned()));
         contract.addRevenueRecognition(new RevenueRecognition(allocation[1], contract.getWhenSigned().addDays(firstRecognitionOffset)));

@@ -25,4 +25,8 @@ public class Product {
     public static Product newDatabase(String name) {
         return new Product(name, new ThreeWayRecognitionStrategy(30, 60));
     }
+
+    void calculateRevenueRecognitions(Contract contract) {
+        this.recognitionStrategy.calculateRevenueRecognitions(contract);
+    }
 }

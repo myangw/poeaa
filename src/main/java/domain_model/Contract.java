@@ -23,6 +23,12 @@ public class Contract {
         this.product = product;
         this.revenue = revenue;
         this.whenSigned = whenSigned;
+
+        calculateRecognitions();
+    }
+
+    private void calculateRecognitions() {
+        this.product.calculateRevenueRecognitions(this);
     }
 
     public Money recognizedRevenue(MfDate asOf) {

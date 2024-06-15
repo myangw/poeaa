@@ -4,5 +4,5 @@ import domain_model.Contract;
 
 public abstract class RecognitionStrategy {
 
-    abstract void calculateRevenueRecognitions(Contract contract);
+    public abstract void calculateRevenueRecognitions(Contract contract);
 }
