@@ -83,3 +83,7 @@ i
 9src/main/java/row_data_gateway/SomeTransactionScript.java,0/2/0288fb77a3f538e2b3d9cb0d8b5a80ac7c3040e9
 `
 0src/main/java/row_data_gateway/PersonFinder.java,3/0/309199d2c3e9ef0268df7d2f56413df5d88e9ea0
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+?
+settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
