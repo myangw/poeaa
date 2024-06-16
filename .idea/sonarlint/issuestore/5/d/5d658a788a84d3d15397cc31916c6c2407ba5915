@@ -1,0 +1,5 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8§Èœƒ‚2J$6043dc10-2794-470e-9bec-727f3b403fdc
+	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÔİŸƒ‚2J$28a4558d-f476-4789-aa74-91439afe2d3e
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ü³›Ã8ªÈœƒ‚2J$3e0f27c0-4c79-4b3d-a871-15d90f19d652
+¡	java:S115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æ²×îúÿÿÿÿ8óŸŸƒ‚2J$58350cc3-46bb-4ac4-b9e5-4e0d17936814

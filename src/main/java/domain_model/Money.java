@@ -21,7 +21,7 @@ public class Money {
         return new Money(value);
     }
 
-    Money add(Money amount) {
+    public Money add(Money amount) {
         return new Money(amount.value.add(this.value));
     }
 
@@ -32,5 +32,9 @@ public class Money {
             allocated[i] = Money.of(this.value.divide(BigDecimal.valueOf(toSize), RoundingMode.FLOOR));
         }
         return allocated;
+    }
+
+    public Money multiply(int numberOfDependents) {
+        return new Money(this.value.multiply(BigDecimal.valueOf(numberOfDependents)));
     }
 }
